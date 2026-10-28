@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.header a{
+    text-decoration: none;
+    /* color: red; */
+}
+.header{
+    /* border: solid; */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    position: absolute;
+    height: 100px;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 0;
+    padding-top: 50px;
+}
+.header a{
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    background-color: white;
+}

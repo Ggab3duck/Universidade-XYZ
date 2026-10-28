@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+}
+
+.title h1{
+    color: white;
+    justify-content: center;
+    display: flex;
+    /* border: solid; */
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 10;
+    background-color: rgb(0, 10, 157);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.introduction p{
+    display: flex;
+    margin-top: 100px;
+    text-indent: 25px;
+    
+}
+.introduction{
+    background-image: url("../assets/img/backgrounds/main_background.png");
+    height: 500px;
+}
+.carrosel{
+    border: solid;
+}

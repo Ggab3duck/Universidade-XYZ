@@ -1,0 +1,19 @@
+.slider{
+    /* border: solid; */
+    margin: 0 auto;
+    height: auto;
+    padding: auto;
+    /* width: 400%; */
+    height: 50%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    /* display: flex; */
+}
+div .slider .container{
+    width: 400%;
+    height: 100%;
+    display: flex;
+    border: solid blue 5px;
+    /* background-color: red; */
+  
+}
